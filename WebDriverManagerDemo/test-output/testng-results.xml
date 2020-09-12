@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-11T09:26:53Z" name="Default suite" finished-at="2020-09-11T09:27:07Z" duration-ms="14761">
+  <suite started-at="2020-09-12T13:12:39Z" name="Default suite" finished-at="2020-09-12T13:12:52Z" duration-ms="12968">
     <groups>
     </groups>
-    <test started-at="2020-09-11T09:26:53Z" name="Default test" finished-at="2020-09-11T09:27:07Z" duration-ms="14761">
+    <test started-at="2020-09-12T13:12:39Z" name="Default test" finished-at="2020-09-12T13:12:52Z" duration-ms="12968">
       <class name="WebDrivCheck.webCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-11T09:26:53Z" name="setUp" finished-at="2020-09-11T09:27:04Z" duration-ms="11070" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-12T13:12:39Z" name="setUp" finished-at="2020-09-12T13:12:47Z" duration-ms="8771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-11T09:27:04Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-11T09:27:04Z" duration-ms="178" status="PASS">
+        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-12T13:12:47Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-12T13:12:48Z" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoPresence -->
-        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-11T09:27:04Z" name="loginTest" finished-at="2020-09-11T09:27:07Z" duration-ms="2579" status="FAIL">
+        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-12T13:12:48Z" name="loginTest" finished-at="2020-09-12T13:12:51Z" duration-ms="3139" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [noCommerce demo store] but found [nopCommerce demo store. Login]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-11T09:27:07Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-11T09:27:07Z" duration-ms="2" status="SKIP">
+        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-12T13:12:51Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-12T13:12:51Z" duration-ms="6" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test]]>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-11T09:27:07Z" name="tearDown" finished-at="2020-09-11T09:27:07Z" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-12T13:12:51Z" name="tearDown" finished-at="2020-09-12T13:12:52Z" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
