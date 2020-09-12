@@ -1,0 +1,36 @@
+Git & Git Hub:
+
+Git --> Local repository
+GitHub --> Remote repository
+
+
+Prerequisitie Steps :
+------------------------
+Login Github : https://github.com/
+
+Step 1: Create new account(signup) in github application
+Step 2: create new repository in github. It will generate repsitory URL:
+		https://github.com/arunrajput17/WebDriverManagerDemo.git
+Step 3: install git plugin in eclipse
+	Eclipse --> Help --> Eclipse Marketplace --> Search Git --> EGit - Git Integration for Eclipse (Install) 
+	
+
+Actual use Steps:
+----------------------------
+Step 1: Create / clone git repository in Eclipse
+	- search option(Quick access --> Git Repository) --> clone a git repository --> provide URL
+	- Local GIT rep location: D:\Day Shift\Selenium Practice\git\WebDriverManagerDemo
+	
+Step 2: Commit or Push our project files from Git to GitHub repository
+	- Select project --> team --> Share project--> Select REpository (created in step 1)--> Finish -->
+--> commit --> select all files in staged area, drag and drop--> press on commit and push
+
+Step 3: Push our project files from GitHub to Git --> Eclipse 
+	- Select project --> right click -- team --> pull
+
+
+
+
+
+
+
