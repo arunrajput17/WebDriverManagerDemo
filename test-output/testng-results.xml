@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-18T04:37:09Z" name="Default suite" finished-at="2020-09-18T04:37:28Z" duration-ms="19001">
+  <suite started-at="2020-09-28T05:28:28Z" name="Default suite" finished-at="2020-09-28T05:28:46Z" duration-ms="18687">
     <groups>
     </groups>
-    <test started-at="2020-09-18T04:37:09Z" name="Default test" finished-at="2020-09-18T04:37:28Z" duration-ms="19001">
+    <test started-at="2020-09-28T05:28:28Z" name="Default test" finished-at="2020-09-28T05:28:46Z" duration-ms="18687">
       <class name="WebDrivCheck.webCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-18T04:37:09Z" name="setUp" finished-at="2020-09-18T04:37:22Z" duration-ms="13254" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:28Z" name="setUp" finished-at="2020-09-28T05:28:40Z" duration-ms="12670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-18T04:37:22Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-18T04:37:22Z" duration-ms="230" status="PASS">
+        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:40Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-28T05:28:41Z" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoPresence -->
-        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-18T04:37:22Z" name="loginTest" finished-at="2020-09-18T04:37:26Z" duration-ms="4154" status="FAIL">
+        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:41Z" name="loginTest" finished-at="2020-09-28T05:28:45Z" duration-ms="4897" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [noCommerce demo store] but found [nopCommerce demo store. Login]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-18T04:37:27Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-18T04:37:27Z" duration-ms="3" status="SKIP">
+        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:45Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-28T05:28:45Z" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test]]>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-18T04:37:27Z" name="tearDown" finished-at="2020-09-18T04:37:28Z" duration-ms="1317" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:45Z" name="tearDown" finished-at="2020-09-28T05:28:46Z" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
