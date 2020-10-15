@@ -39,7 +39,9 @@ public class webCheck extends BaseClass{
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		System.out.println("browser opened");
 		driver.get("http://demo.nopcommerce.com/");
+		System.out.println("site opened");
 		
 	}
 	

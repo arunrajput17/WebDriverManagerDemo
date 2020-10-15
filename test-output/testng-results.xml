@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-28T05:28:28Z" name="Default suite" finished-at="2020-09-28T05:28:46Z" duration-ms="18687">
+  <suite started-at="2020-10-15T07:57:52Z" name="Default suite" finished-at="2020-10-15T07:58:36Z" duration-ms="44182">
     <groups>
     </groups>
-    <test started-at="2020-09-28T05:28:28Z" name="Default test" finished-at="2020-09-28T05:28:46Z" duration-ms="18687">
+    <test started-at="2020-10-15T07:57:52Z" name="Default test" finished-at="2020-10-15T07:58:36Z" duration-ms="44182">
       <class name="WebDrivCheck.webCheck">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:28Z" name="setUp" finished-at="2020-09-28T05:28:40Z" duration-ms="12670" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-10-15T07:57:52Z" name="setUp" finished-at="2020-10-15T07:58:33Z" duration-ms="40786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:40Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-09-28T05:28:41Z" duration-ms="242" status="PASS">
+        <test-method signature="logoPresence()[pri:1, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-10-15T07:58:33Z" name="logoPresence" description="Verify Logo presence on Home Page TestNG annotation" finished-at="2020-10-15T07:58:33Z" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoPresence -->
-        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:41Z" name="loginTest" finished-at="2020-09-28T05:28:45Z" duration-ms="4897" status="FAIL">
+        <test-method signature="loginTest()[pri:2, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-10-15T07:58:33Z" name="loginTest" finished-at="2020-10-15T07:58:35Z" duration-ms="2310" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [noCommerce demo store] but found [nopCommerce demo store. Login]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at WebDrivCheck.webCheck.loginTest(webCheck.java:64)
+at WebDrivCheck.webCheck.loginTest(webCheck.java:66)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -60,14 +60,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:45Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-09-28T05:28:45Z" duration-ms="3" status="SKIP">
+        <test-method signature="registrationTest()[pri:3, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-10-15T07:58:35Z" name="registrationTest" description="Verify Registration form TestNG Test" finished-at="2020-10-15T07:58:35Z" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping this test
-at WebDrivCheck.webCheck.registrationTest(webCheck.java:73)
+at WebDrivCheck.webCheck.registrationTest(webCheck.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-09-28T05:28:45Z" name="tearDown" finished-at="2020-09-28T05:28:46Z" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebDrivCheck.webCheck@762ef0ea]" started-at="2020-10-15T07:58:35Z" name="tearDown" finished-at="2020-10-15T07:58:36Z" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
